@@ -1,0 +1,8 @@
+numpy
+optuna
+rdkit
+torch
+torch-geometric
+e3nn==0.4.4
+opt_einsum
+opt_einsum_fx

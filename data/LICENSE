@@ -1,0 +1,35 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 nmdl-mizo
+
+Except for the incorporated QM9 source records described below, the data files
+in this directory, including the generated XANES values and dataset packaging,
+are licensed under the Creative Commons Attribution 4.0 International Public
+License.
+
+To view the license deed and full legal code, visit:
+
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution
+-----------
+
+When sharing or adapting the licensed material, provide appropriate credit to
+the XANES-Guided_Molecular_Generation authors, link to the license, and
+indicate if changes were made. Citation information should be taken from the
+repository README or its associated publication when available.
+
+Upstream data
+-------------
+
+The incorporated QM9 molecular records were originally released under the
+Creative Commons CC0 1.0 Universal Public Domain Dedication and retain those
+terms:
+
+Data for 133885 GDB-9 molecules
+https://doi.org/10.6084/m9.figshare.978904_D12
+https://creativecommons.org/publicdomain/zero/1.0/
+
+This CC BY 4.0 notice applies only to rights that the licensor is authorized
+to grant and does not replace the CC0 status of the incorporated QM9 records.
