@@ -1,5 +1,7 @@
 # XANES-Guided_Molecular_Generation
 
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24339709.svg)](https://doi.org/10.5281/zenodo.24339709)
+
 This repository contains an end-to-end XANES demonstration:
 
 ```text
@@ -170,6 +172,41 @@ SMOKE_TEST=1 ./train_forward.sh global CK
 
 `INVERSE_PYTHON` and `FORWARD_PYTHON` select alternative Python executables if
 the models are installed in separate environments.
+
+## Full training dataset
+
+The complete version 1.0.0 training dataset, containing 27,112 QM9-derived
+molecules with molecule-level and absorbing-site-resolved CK, NK, and OK XANES
+spectra, is available from Zenodo:
+
+- Dataset: [XANES-Guided Molecular Generation Dataset: QM9 Structures and
+  Simulated XANES Spectra](https://doi.org/10.5281/zenodo.24339709)
+- DOI: `10.5281/zenodo.24339709`
+- License: CC BY 4.0; incorporated QM9 source records retain their CC0 status
+
+Download the following four files from the Zenodo record and place them under
+`data/processed/`, replacing the demonstration files where applicable:
+
+```text
+data_qm9_xanes.pt
+data_qm9_xanes_site.pt
+split_dict_data_qm9_xanes.pt
+split_dict_data_qm9_xanes_site.pt
+```
+
+The Zenodo record also provides `SHA256SUMS` for integrity verification. From
+the directory containing the downloaded files, run:
+
+```bash
+sha256sum -c SHA256SUMS
+```
+
+When using the full dataset, please cite:
+
+> Fujikata, Yu, & Mizoguchi, Teruyasu. (2026). *XANES-Guided Molecular
+> Generation Dataset: QM9 Structures and Simulated XANES Spectra* (Version
+> 1.0.0) [Data set]. Zenodo.
+> <https://doi.org/10.5281/zenodo.24339709>
 
 ## Demonstration data
 
